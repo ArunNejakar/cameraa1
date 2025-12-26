@@ -19,7 +19,7 @@ class CameraApprovalManager:
 
 
 # -------- Jenkins Execution Entry --------
-if _name_ == "_main_":
+if __name__ == "__main__":
 
     camera = os.getenv("CAMERA_ID")
     slot = os.getenv("BOOKING_SLOT")
